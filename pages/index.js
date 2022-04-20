@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-script-component-in-head */
-
 import React, { useEffect } from "react";
 
 import firebase from "firebase/app";

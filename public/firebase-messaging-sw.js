@@ -3,12 +3,12 @@ importScripts("https://www.gstatic.com/firebasejs/8.9/firebase-messaging.js");
 
 if (!firebase.apps.length) {
   firebase.initializeApp({
-    apiKey: process.env.NEXT_PUBLIC_API_KEY,
-    authDomain: process.env.NEXT_PUBLIC_AUTH_DOMAIN,
-    projectId: process.env.NEXT_PUBLIC_PROJECT_ID,
-    storageBucket: process.env.NEXT_PUBLIC_STORAGE_BUCKET,
-    messagingSenderId: process.env.NEXT_PUBLIC_MESSAGING_SENDER_ID,
-    appId: process.env.NEXT_PUBLIC_APP_ID,
+    apiKey: "AIzaSyC5WlJYPnu1YWqMm2WckQttTHYOpjLDkvk",
+    authDomain: "notify-next.firebaseapp.com",
+    projectId: "notify-next",
+    storageBucket: "notify-next.appspot.com",
+    messagingSenderId: "351176633522",
+    appId: "1:351176633522:web:e345054ed801407dbe2dab",
   });
 
   firebase.messaging();
